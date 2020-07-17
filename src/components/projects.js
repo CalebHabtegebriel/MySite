@@ -14,7 +14,7 @@ class Projects extends Component {
             <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
               <CardTitle style={{color: '#fff', height: '176px', background:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8yV7X25H2CyiqP-JiWnSN2FBqv51m96rMsQ&usqp=CAU) center / cover'}}>
                   Exercise Tracker</CardTitle>
-                <CardText>Lorem Ipsuming versions of Lorem Ipsum.</CardText>
+                <CardText>Utilized APIs</CardText>
               
               <CardActions border>
                 <Button colored>GitHub</Button>
