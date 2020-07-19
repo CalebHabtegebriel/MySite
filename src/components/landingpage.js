@@ -1,24 +1,23 @@
 import React, { Component } from 'react';
 import { Grid, Cell} from 'react-mdl';
-import Avatar from './Avatar-Maker.png';
+import Avatar from './avatarimg-ConvertImage.png';
 class Landing extends Component {
   render() {
       return(
           <div style={{width: '100%', amrgin: 'auto'}}>
               <Grid className="landing-grid">
-                  <Cell col={12}>
+                  <Cell style={{width: '30vw'}}>
                       <img
                         src={Avatar}
                         alt="avatar"
                         className="avatar-img"
                       />
                       <div className="banner-text">
-                          <h1>Software Developer</h1>
+                          <h1>Hi, I'm Caleb</h1>
 
                           <hr />
 
-                        <p> Python | C++ | Java | JavaScript | HTML | CSS 
-                            | React | Angular
+                        <p> Web Development | Data Science | Machine Learning
                         </p>
                         <div className="social-links">
                             
