@@ -5,7 +5,7 @@ import Educaton from './education'
 import Experience from './experience';
 import Skills from './skills';
 
-class Projects extends Component {
+class Resume extends Component {
   render() {
       return(
         <div>
@@ -88,4 +88,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default Resume;
