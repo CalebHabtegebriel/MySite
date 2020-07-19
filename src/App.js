@@ -7,7 +7,7 @@ function App() {
   return (
     <div style={{height: '100vh', position: 'relative'}}>
     <Layout fixedHeader>
-        <Header className="header-color" title={<span><span style={{ color: '#ddd' }}>Caleb Habtegebriel</span></span>}>
+  <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">My Potfolio</Link>} scroll>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
@@ -15,7 +15,7 @@ function App() {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">My Potfolio</Link>}>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>

@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Avatar from './Avatar-Maker.png';
 import Educaton from './education'
 import Experience from './experience';
+import Skills from './skills';
 
 class Projects extends Component {
   render() {
@@ -48,7 +49,6 @@ class Projects extends Component {
               schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five c"
                />
                <hr style={{borderTop: '3px solid #e22947'}}/>
-
                <h2>Experience</h2>
                <Experience 
               startYear={2020}
@@ -61,6 +61,24 @@ class Projects extends Component {
               endYear={2020}
               jobName="Computer Science Instructor @ Juni Learning"
               jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five c"
+               />
+               <hr style={{borderTop: '3px solid #e22947'}}/>
+               <h2>Skills</h2>
+               <Skills 
+               skill='JavaScript, HTML, CSS'
+               progress={89}
+               />
+              <Skills 
+               skill='Python, Django'
+               progress={94}
+               />
+              <Skills 
+               skill='ReactJS Angular'
+               progress={89}
+               />
+              <Skills 
+               skill='TypeScript'
+               progress={89}
                />
               
             </Cell>
