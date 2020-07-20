@@ -12,7 +12,7 @@ class Projects extends Component {
           <div className="projects-grid">
             {/*Project 1 */}
             <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8yV7X25H2CyiqP-JiWnSN2FBqv51m96rMsQ&usqp=CAU) center / cover'}}>Exercise Tracker</CardTitle>
+              <CardTitle style={{color: '#fff', height: '176px', background:'url(https://c1.wallpaperflare.com/preview/552/758/364/computer-laptop-macbook-coding.jpg) center / cover'}}>Exercise Tracker</CardTitle>
                 
                 <CardText>Utilized APIs</CardText>
               
@@ -28,7 +28,7 @@ class Projects extends Component {
             </Card>
             {/*Project 2 */}
             <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8yV7X25H2CyiqP-JiWnSN2FBqv51m96rMsQ&usqp=CAU) center / cover'}}>Exercise Tracker</CardTitle>
+              <CardTitle style={{color: '#fff', height: '176px', background:'url(https://c1.wallpaperflare.com/preview/552/758/364/computer-laptop-macbook-coding.jpg) center / cover'}}>Exercise Tracker</CardTitle>
                 <CardText>Lorem Ipsuming versions of Lorem Ipsum.</CardText>
               
               <CardActions border>

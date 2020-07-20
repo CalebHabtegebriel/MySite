@@ -7,17 +7,27 @@
     position: fixed;
     text-align: center;
     left: 25vw;
+    right: 25vw;
     width: 100vw;
     height: 100vh;
 }
 .mdl-layout__header {
     background-color: transparent;
 }
+.social-links i {
+    max-width: 100%;
+    color: white;
+    font-size: 5em;
+    padding: 1vh;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
 
 .avatar-img{
-    height: 35vh;
+    max-width: 100%;
+    height: auto;
     padding-top: 10vh;
-    padding-left: 15vw;
+    padding-left: 10vw;
     text-align: center;
 }
 .banner-text{
@@ -98,11 +108,7 @@
 
 }
 
-.social-links i {
-    color: white;
-    font-size: 5em;
-    padding: 1vh;
-}
+
 /* Resume CSS */
 .resume-right-col {
     background: #27221f;

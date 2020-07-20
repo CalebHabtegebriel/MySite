@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Avatar from './Avatar-Maker.png';
+import Avatar from './avatarimg-ConvertImage.png';
 import Educaton from './education'
 import Experience from './experience';
 import Skills from './skills';
@@ -18,8 +18,8 @@ class Resume extends Component {
                         style={{height: '200px'}}
                       />
               </div>
-              <h2 style={{paddingTop: '2em'}}>Caleb Habtegebriel</h2>
-              <h4 style={{color: 'grey'}}>Software Developer</h4>
+              <h2 style={{paddingTop: '2em', color: 'white'}}>Caleb Habtegebriel</h2>
+              <h4 style={{color: 'white'}}>Software Developer</h4>
               <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five c</p>
               <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
@@ -40,7 +40,7 @@ class Resume extends Component {
               startYear={2018}
               endYear={2022}
               schoolName="University of Texas at Austin"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five c"
+              schoolDescription="Bachelor's of Science in Electrical and Computer Engineering - Cockrell School of Engineering"
                />
               <Educaton 
               startYear={2014}
