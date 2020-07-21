@@ -7,7 +7,7 @@ function App() {
   return (
     <div style={{height: '100vh', position: 'relative'}}>
     <Layout className='layout' fixedHeader>
-  <Header transparent className="header-color" title={<Link style={{textDecoration: 'none', color: 'white', fontFamily: 'Barlow Condensed'}} to="/">My Potfolio</Link>} scroll>
+  <Header transparent className="header-color" title={<Link style={{textDecoration: 'none', color: 'white', fontFamily: 'Barlow Condensed'}} to="/">My Portfolio</Link>} scroll>
             <Navigation style={{fontFamily:'Barlow Condensed' ,fontSize: '3rem'}}>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>

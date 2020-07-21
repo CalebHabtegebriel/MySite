@@ -1,4 +1,5 @@
 /* Landing Page CSS */
+
 .layout {
     background-image: url('./dallasBackground.png');
 }
@@ -9,10 +10,18 @@
     left: 25vw;
     right: 25vw;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 .mdl-layout__header {
     background-color: transparent;
+}
+/* Social Links (under Landing page) */
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+    margin: auto;
+
 }
 .social-links i {
     max-width: 100%;
@@ -26,7 +35,7 @@
 .avatar-img{
     max-width: 100%;
     height: auto;
-    padding-top: 10vh;
+    padding-top: 7vh;
     padding-left: 10vw;
     text-align: center;
 }
@@ -58,12 +67,12 @@
     padding: 1em;
 }
 
-
-
+/* Project page CSS */
 .projects-grid{
     display: flex;
-    
 }
+
+/* Contact page */
 .contact-body{
     margin: auto;
     position: fixed;
@@ -78,40 +87,43 @@
     justify-content: center;
     width: 80%;
     height: 550px;
-    background: white;
-    color: black;
+    background: rgb(88, 84, 84);
+    color: whitesmoke;
     margin-bottom: 20px;
 }
 .contact-grid h2{
-    font-family: 'Arial', sans-serif;
+    font-family: 'Barlow Condensed';
+    color: whitesmoke
 }
 
 .contact-grid p{
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Barlow Condensed';
+    color: whitesmoke;
     font-weight: bold;
 }
 .contact-grid hr{
     border-top: 5px dotted black;
+    color: whitesmoke;
     width: 50%;
     margin: auto;
 }
 .contact-list i{
     font-size: 50px;
     padding-right: 5rem;
+    color:whitesmoke
 
 }
-.social-links {
-    display: flex;
-    justify-content: space-between;
-    width: 15vw;
-    margin: auto;
 
-}
 
 
 /* Resume CSS */
+.resume-left-col {
+    background: #c7c2c2;
+    opacity: 0.8;
+}
 .resume-right-col {
-    background: #27221f;
+    background: #554f4b;
+    opacity: 0.8;
     color: white;
     padding: 2em;
 } 

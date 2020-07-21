@@ -10,17 +10,17 @@ class Resume extends Component {
       return(
         <div>
           <Grid>
-            <Cell col={4}>
+            <Cell className="resume-left-col" col={4}>
               <div style={{textAlign: 'center'}}>
               <img
                         src={Avatar}
                         alt="avatar"
-                        style={{height: '200px'}}
+                        style={{height: '200px' ,paddingTop: '5vh'}}
                       />
               </div>
-              <h2 style={{paddingTop: '2em', color: 'white'}}>Caleb Habtegebriel</h2>
+              <h2 style={{paddingTop: '1.75em', color: 'white'}}>Caleb Habtegebriel</h2>
               <h4 style={{color: 'white'}}>Software Developer</h4>
-              <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+              <hr style={{borderTop: '3px solid white', width: '50%'}}/>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five c</p>
               <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
               <h3>Address</h3>
@@ -40,7 +40,7 @@ class Resume extends Component {
               startYear={2018}
               endYear={2022}
               schoolName="University of Texas at Austin"
-              schoolDescription="Bachelor's of Science in Electrical and Computer Engineering - Cockrell School of Engineering"
+              schoolDescription="Bachelor's of Science in Electrical and Computer Engineering"
                />
               <Educaton 
               startYear={2014}
