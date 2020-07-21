@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07bea3588cac387a1907ce8b3484cf35",
+    "revision": "9ea1661820fb888c39ce28f72510097b",
     "url": "/MySite/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MySite/static/css/2.e4346227.chunk.css"
   },
   {
-    "revision": "6368d0e311bba89cd137",
-    "url": "/MySite/static/css/main.f2c5d44d.chunk.css"
+    "revision": "0d80d30090465d1a0e2a",
+    "url": "/MySite/static/css/main.d3f28472.chunk.css"
   },
   {
     "revision": "fbb3cb9636bde5a3a03c",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MySite/static/js/2.e07984a5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6368d0e311bba89cd137",
-    "url": "/MySite/static/js/main.0847bfba.chunk.js"
+    "revision": "0d80d30090465d1a0e2a",
+    "url": "/MySite/static/js/main.46869150.chunk.js"
   },
   {
     "revision": "c2e95320a639dc3b5c1a",
@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MySite/static/media/avatarimg-ConvertImage.d27a14c5.png"
   },
   {
-    "revision": "7bf643e20e253b2d8b7a4de78f02376e",
-    "url": "/MySite/static/media/dallasBackground.7bf643e2.png"
+    "revision": "c56915f72602a2a76f0aebaa2f6f26cf",
+    "url": "/MySite/static/media/dallasBackground.c56915f7.png"
   }
 ]);
