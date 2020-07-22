@@ -34,6 +34,18 @@ class Contact extends Component {
                         habtegebrielc@gmail.com
                       </ListItemContent>
                     </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{fontSize: '30px', fontFamily: 'Barlow Condensed', color: 'whitesmoke'}}>
+                        <i className="fa fa-linkedin-square"  aria-hidden="true" />
+                        caleb-habtegebriel
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{fontSize: '30px', fontFamily: 'Barlow Condensed', color: 'whitesmoke'}}>
+                        <i className="fa fa-github-square"  aria-hidden="true" />
+                        CalebHabtegebriel
+                      </ListItemContent>
+                    </ListItem>
 
                   </List>
                 </div>

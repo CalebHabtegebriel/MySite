@@ -87,13 +87,14 @@
     justify-content: center;
     width: 80%;
     height: 550px;
-    background: rgb(88, 84, 84);
+    background: rgb(75, 72, 72);
     color: whitesmoke;
     margin-bottom: 20px;
 }
 .contact-grid h2{
     font-family: 'Barlow Condensed';
-    color: whitesmoke
+    color: whitesmoke;
+    font-size: 20vw;
 }
 
 .contact-grid p{
@@ -102,15 +103,14 @@
     font-weight: bold;
 }
 .contact-grid hr{
-    border-top: 5px dotted black;
-    color: whitesmoke;
+    border-top: 5px dotted whitesmoke;
     width: 50%;
     margin: auto;
 }
 .contact-list i{
     font-size: 50px;
     padding-right: 5rem;
-    color:whitesmoke
+    color:whitesmoke;
 
 }
 
@@ -127,3 +127,24 @@
     color: white;
     padding: 2em;
 } 
+.resume-left-col h2 {
+    font-size: 2.75vw;
+    font-family: 'Barlow Condensed';
+}
+.resume-left-col h4 {
+    font-size: 1.75vw;
+    font-family: 'Barlow Condensed';
+}
+.resume-left-col h3 {
+    font-size: 2.8 vw;
+    font-family: 'Barlow Condensed';
+}
+.resume-left-col p {
+    font-size: 1.75vw;
+    font-family: 'Barlow Condensed';
+}
+.resume-left-col h5 {
+    font-size: 1.75vw;
+    font-weight: bold;
+    padding-bottom: 1vh;
+}
